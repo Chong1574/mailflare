@@ -64,7 +64,7 @@
 		{
 			"binding": "DB",
 			"database_name": "mailflare",
-			"migrations_dir": "drizzle/migrations","database_id": "6949e2f6-a39e-4553-b03a-47dc33d11ad4",
+			"migrations_dir": "drizzle/migrations",
 		},
 	],
 	"r2_buckets": [
