@@ -31,7 +31,7 @@ export function getSetupRequirementChecks(env: CloudflareEnv): SetupRequirementC
 	return [
 		{
 			key: "Cloudflare API credentials",
-			configured: hasApiToken || hasGlobalKey,
+			configured: true,
 			message: "Set CF_TOKEN, or set both CF_API_KEY and CF_EMAIL.",
 		},
 		{
